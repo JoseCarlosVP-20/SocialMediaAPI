@@ -33,7 +33,11 @@ namespace SocialMedia.Api
         {
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
-            services.AddControllers();
+            services.AddControllers(options =>
+            {
+                options.Filters.Add<GlobalExcepcionFilter>();
+            });
+
             services.AddDbContext<SocialmediaContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("SocialMediaConnection")));
 

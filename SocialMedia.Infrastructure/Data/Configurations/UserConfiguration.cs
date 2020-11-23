@@ -17,7 +17,7 @@ namespace SocialMedia.Infrastructure.Data.Configurations
             .HasColumnName("IdUsuario");
 
             builder.Property(e => e.FirstName)
-            .HasColumnName("Nombre")
+            .HasColumnName("Nombres")
                 .IsRequired()
                 .HasMaxLength(50)
                 .IsUnicode(false);
@@ -33,7 +33,9 @@ namespace SocialMedia.Infrastructure.Data.Configurations
                 .HasMaxLength(30)
                 .IsUnicode(false);
 
-            builder.Property(e => e.DateOfBird).HasColumnType("date");
+            builder.Property(e => e.DateOfBird)
+                .HasColumnName("FechaNacimiento")
+                .HasColumnType("date");
 
             builder.Property(e => e.Telephone)
             .HasColumnName("Telefono")
