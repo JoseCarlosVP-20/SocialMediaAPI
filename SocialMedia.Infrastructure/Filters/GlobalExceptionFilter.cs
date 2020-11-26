@@ -7,7 +7,7 @@ using System.Net;
 
 namespace SocialMedia.Infrastructure.Filters
 {
-    public class GlobalExcepcionFilter : IExceptionFilter
+    public class GlobalExceptionFilter : IExceptionFilter
     {
         private int httpStatusCode;
 
