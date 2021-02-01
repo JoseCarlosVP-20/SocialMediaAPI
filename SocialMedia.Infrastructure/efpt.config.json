@@ -1,37 +1,28 @@
 ﻿{
-  "ContextClassName": "SocialmediaContext",
-  "ContextNamespace": null,
-  "DefaultDacpacSchema": null,
-  "FilterSchemas": false,
-  "IncludeConnectionString": false,
-  "ModelNamespace": null,
-  "OutputContextPath": null,
-  "OutputPath": "Data",
-  "ProjectRootNamespace": "SocialMedia.Infrastructure",
-  "Schemas": null,
-  "SelectedHandlebarsLanguage": 0,
-  "SelectedToBeGenerated": 0,
-  "Tables": [
-    {
-      "HasPrimaryKey": true,
-      "Name": "[dbo].[Comentario]"
-    },
-    {
-      "HasPrimaryKey": true,
-      "Name": "[dbo].[Publicacion]"
-    },
-    {
-      "HasPrimaryKey": true,
-      "Name": "[dbo].[Usuario]"
-    }
-  ],
-  "UseDatabaseNames": false,
-  "UseDbContextSplitting": false,
-  "UseFluentApiOnly": true,
-  "UseHandleBars": false,
-  "UseInflector": false,
-  "UseLegacyPluralizer": false,
-  "UseNodaTime": false,
-  "UseSpatial": false,
-  "UseStoredProcedures": false
+   "ContextClassName": "SocialmediaContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Data",
+   "ProjectRootNamespace": "SocialMedia.Infrastructure",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[Institucion]",
+         "ObjectType": 0
+      }
+   ],
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseNodaTime": false,
+   "UseSpatial": false
 }
