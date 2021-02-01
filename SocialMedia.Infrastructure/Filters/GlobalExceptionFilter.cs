@@ -9,8 +9,6 @@ namespace SocialMedia.Infrastructure.Filters
 {
     public class GlobalExceptionFilter : IExceptionFilter
     {
-        private int httpStatusCode;
-
         public void OnException(ExceptionContext context)
         {
             if (context.Exception.GetType() == typeof(BusinessException))
